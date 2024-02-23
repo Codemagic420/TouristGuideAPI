@@ -6,16 +6,16 @@
     <link th:href="@{/addAttraction.css}" rel="stylesheet">
 </head>
 <body>
-<h1>Tilføj en ny turistattraktion</h1>
+<h1>Submit new attraction</h1>
 <br>
 <form action="#" method="post" th:action="@{/attractions/save}" th:object="${touristAttraction}">
-    <label for="name">Navn:</label>
+    <label for="name">Name:</label>
     <input type="text" id="name" name="name" th:field="*{name}" required>
 
-    <label for="description">Beskrivelse:</label>
+    <label for="description">Description:</label>
     <textarea id="description" name="description" th:field="*{description}" required></textarea>
 
-    <label for="city">By:</label>
+    <label for="city">City:</label>
     <select id="city" name="city" th:field="*{city}" required>
         <option th:each="city : ${cities}" th:value="${city}" th:text="${city}"></option>
     </select>
@@ -30,7 +30,7 @@
 
     <button type="submit">OK</button>
     <a href="/attractions" th:href="@{/attractions}">
-        <button type="button">Fortryd</button>
+        <button type="button">Return</button>
     </a>
 </form>
 </body>

@@ -2,12 +2,12 @@
 Body {
     font-family: "Agency FB";
     background-size: cover;
-    background-color: lavender;
+    background-color: skyblue;
 }
 
 th {
     padding: 10px;
-    background-color: white;
+    background-color: skyblue;
     border-collapse: collapse;
 }
 tr {

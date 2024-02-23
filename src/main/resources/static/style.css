@@ -1,20 +1,20 @@
 Body {
     font-family: "Calibri";
     background-size: cover;
-    background-color: whitesmoke;
+    background-color: skyblue;
 }
 
 h1 {
     color: black;
     text-align: center;
-    font-family: "Calibri";
+    font-family: "Times New Roman";
     font-size: 36px;
     border-bottom: 2px solid black;
 }
 
 h2 {
     color: black;
-    font-family: "Calibri";
+    font-family: "Times New Roman";
     font-size: 30px;
     text-align: center;
 }
@@ -60,7 +60,7 @@ p {
 }
 
 nav {
-    background-color: whitesmoke;
+    background-color: skyblue;
     position: absolute;top: 80px;
 
 }

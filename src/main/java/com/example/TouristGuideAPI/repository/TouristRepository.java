@@ -75,11 +75,11 @@ public class TouristRepository {
     }
 
     public List<String> getCities() {
-        return List.of("Copenhagen", "Aarhus", "Odense", "Aalborg");
+        return List.of("Copenhagen", "Nørrebro", "Østerbro", "Valby");
     }
 
     public List<String> getTags() {
-        return List.of("Underholdning", "Familie", "Restaurant", "Koncert", "Gratis", "Kunst", "Museum", "Natur");
+        return List.of("Cheap", "Middle price", "Somewhat expensive", "Restaurant", "good for the price", "pricey", "cheap but good option", "Almost the best kebab");
 
     }
 }
